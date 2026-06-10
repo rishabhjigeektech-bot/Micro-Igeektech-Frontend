@@ -1,0 +1,41 @@
+{
+  "name": "chuck-bot-fe",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "serve -s dist -l $PORT",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.17",
+    "apexcharts": "^5.3.6",
+    "lucide-react": "^0.555.0",
+    "moment": "^2.30.1",
+    "react": "^19.2.0",
+    "react-apexcharts": "^1.8.0",
+    "react-dom": "^19.2.0",
+    "react-modern-drawer": "^1.4.0",
+    "serve": "^14.2.5",
+    "tailwindcss": "^4.1.17",
+    "tailwindcss-scrollbar": "^0.1.0",
+    "zustand": "^5.0.11"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react-swc": "^4.2.2",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.46.4",
+    "vite": "^7.2.4"
+  }
+}
