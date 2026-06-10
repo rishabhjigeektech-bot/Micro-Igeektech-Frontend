@@ -1,0 +1,1 @@
+export type BotMode = "paper" | "live" | "replay";
